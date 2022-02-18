@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('continuousdownload')
     {
-        git 'https://github.com/intelliqittrainings/maven.git'
+        git 'https://github.com/kumarpille/maven1.git'
     }
     stage('continuoustesting')
     {
